@@ -10,7 +10,7 @@
         <label for="name">Имя</label>
         <input type="text" class="form-control" placeholder="Имя" formControlName="name" />
         <div class="alert alert-danger"
-          *ngIf="workerForm.controls['name'].invalid && workerForm.controls['name'].touched">
+          *ngIf="(workerForm.controls['name'].invalid && workerForm.controls['name'].touched)">
           <strong>Некорректное имя</strong><br>
           Имя должно начинаться с заглавной буквы и содержать только буквы
         </div>
