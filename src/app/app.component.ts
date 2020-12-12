@@ -1,9 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormGroup } from '@angular/forms';
-import {
-  MyWorker,
-  MyWorkerType,
-} from './shared/models/worker.model';
+import { MyWorker, MyWorkerType} from './shared/models/worker.model';
 import { HttpWorkerService } from './shared/services/http-worker.service';
 
 @Component({
